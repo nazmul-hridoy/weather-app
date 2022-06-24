@@ -6,7 +6,7 @@ submitBtn.addEventListener('click', function(){
     //console.log(inputBtn);
 
 
-    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputBtn+'&appid=9622c3fabf106cf1a7b844fcb66a71f9')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputBtn+'&appid=apikey')
     .then(response => response.json())
     .then(data =>{
         console.log(data);
